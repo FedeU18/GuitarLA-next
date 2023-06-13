@@ -4,6 +4,7 @@ const Document = () => {
   return (
     <Html>
       <Head>
+        <meta name="description" content="GuitarLA - Venta y blog de música" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

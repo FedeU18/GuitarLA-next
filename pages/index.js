@@ -1,10 +1,15 @@
 import Link from "next/link";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
     <>
-      <h1>hola mundo</h1>
-      <Link href={"/nosotros"}>Nosotros</Link>
+      <Layout
+        title="Inicio"
+        description="Blog de música, venta de guitarras y más"
+      >
+        <h1>Inicio</h1>
+      </Layout>
     </>
   );
 }
