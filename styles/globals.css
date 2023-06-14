@@ -56,3 +56,6 @@ main {
   text-transform: uppercase;
   transition: ease-in-out 0.3s;
 }
+.navegacion a:hover {
+  background-color: var(--primary);
+}

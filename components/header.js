@@ -28,14 +28,14 @@ const Header = () => {
               Nosotros
             </a>
           </Link>
-          <Link legacyBehavior href={"/blog"}>
-            <a className={router.route === "/blog" ? styles.active : ""}>
-              Blog
-            </a>
-          </Link>
           <Link legacyBehavior href={"/guitarras"}>
             <a className={router.route === "/guitarras" ? styles.active : ""}>
               Tienda
+            </a>
+          </Link>
+          <Link legacyBehavior href={"/blog"}>
+            <a className={router.route === "/blog" ? styles.active : ""}>
+              Blog
             </a>
           </Link>
         </nav>

@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 
-const Tieda = () => {
+const Tienda = () => {
   return (
     <Layout title="Tienda" description="Tienda de música">
       <h1>Tienda</h1>
@@ -8,4 +8,4 @@ const Tieda = () => {
   );
 };
 
-export default Tieda;
+export default Tienda;
